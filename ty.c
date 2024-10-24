@@ -6,7 +6,7 @@ int main() {
     original = n;
 
      {  remainder = n % 10;
-        reversed = reversed*10+remainder;
+        
         n/= 10;
     }
     if (original == reversed)
